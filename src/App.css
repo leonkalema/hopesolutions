@@ -1,0 +1,121 @@
+html,body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+body {
+  margin:0;padding:0;
+  height: 100%;
+}
+
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutter [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-height{
+  min-height: 450px;
+  display: table;
+}
+.left{
+  background: #9f1c35;
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('http://www.thefruitpeople.ie/wp-content/uploads/2015/03/computer-564136_1280-1024x594.jpg?w=940&h=650&auto=compress&cs=tinysrgb') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.right{
+  background: #f50;
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url('http://www.hnldesign.nl/wp-content/uploads/2014/10/2378867408_5d2ac25d2f_o1.jpg?w=940&h=650&auto=compress&cs=tinysrgb') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.col-text{
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+
+article{
+  display: block;
+  margin: 0 auto;
+  font-size: 38px;
+  color: #fff;
+  width: 50%;
+}
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+.footer
+{
+    background-color:#382e2c;
+	color: #ffffff;
+}
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    border-radius: 0px;
+	z-index: 900px;
+}
+.jumbotron{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('https://static.pexels.com/photos/296115/pexels-photo-296115.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') center center no-repeat scroll;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+	color: #ffffff;
+	margin-top: -20px;
+	min-height: 500px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+	width: 100%;
+	min-height: 300px;
+	max-height: 770px;
+}
+.carousel {
+	margin-top: -20px;
+}
+
+
