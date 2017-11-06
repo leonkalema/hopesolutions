@@ -11,23 +11,23 @@ class Header extends Component {
     let k = this.k
 
     return (
-      <Carousel controls={false} indicators={false} interval={10000} slide={true}>
+      <Carousel controls={false} indicators={false} interval={2000} slide={true}>
         <Carousel.Item animateIn={true}>
-          <img  alt="Talent Aquisition" src="https://static.pexels.com/photos/296115/pexels-photo-296115.jpeg"/>
+          <img  alt="Talent Aquisition" src="http://www.seaskyhk.com/img/02.jpg"/>
           <Carousel.Caption>
             <h3>{k("first_slide_label")}</h3>
             <p>{k("first_slide_content")}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img  alt="logistics" src="https://www.exastax.com/wp-content/uploads/2017/04/Logistics.jpg"/>
+          <img  alt="logistics" src="http://www.fairtrade.org.uk/~/media/FairtradeUK/Get%20Involved/Images/Banners/Theresa%20May%20Petition%20Web%20Banner.png"/>
           <Carousel.Caption>
             <h3>{k("second_slide_label")}</h3>
             <p>{k("second_slide_content")}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img  alt="900x500" src="http://immigrationimpact.com/wp-content/uploads/2014/10/Untitled.png"/>
+          <img  alt="900x500" src="http://www.drcc.co.in/img/b2.png"/>
           <Carousel.Caption>
             <h3>{k("third_slide_label")}</h3>
             <p>{k("third_slide_content")}</p>

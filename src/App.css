@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 html,body {
   height:100%;
   margin:0;
@@ -99,7 +102,7 @@ article{
 	z-index: 900px;
 }
 .jumbotron{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('https://static.pexels.com/photos/296115/pexels-photo-296115.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') center center no-repeat scroll;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('http://www.seaskyhk.com/img/02.jpg') center center no-repeat scroll;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -112,7 +115,7 @@ article{
     line-height: 1;
 	width: 100%;
 	min-height: 300px;
-	max-height: 770px;
+	max-height: 470px;
 }
 .carousel {
 	margin-top: -20px;

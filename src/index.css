@@ -3,15 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img {
-    line-height: 1;
-    width: 100%;
-    min-height: 300px;
-    max-height: 770px;
-	z-index: 2;
-    background-color: #286090;
-    opacity: .5;
-}
 .carousel-caption {
     position: absolute;
     top: 50%;
@@ -30,4 +21,7 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(16, 16, 16, 0) !important;
 }
